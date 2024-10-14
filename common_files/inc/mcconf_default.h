@@ -381,7 +381,7 @@
 #define MCCONF_FOC_MTPA_MODE				MTPA_MODE_OFF // Maximum torque per amp (MTPA) algorithm mode
 #endif
 #ifndef MCCONF_FOC_FW_CURRENT_MAX
-#define MCCONF_FOC_FW_CURRENT_MAX		0.0 // Maximum field weakening current
+#define MCCONF_FOC_FW_CURRENT_MAX		20.0 // Maximum field weakening current
 #endif
 #ifndef MCCONF_FOC_FW_DUTY_START
 #define MCCONF_FOC_FW_DUTY_START		0.95 // Start field weakening at this fraction of max duty cycle
