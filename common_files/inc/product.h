@@ -187,11 +187,11 @@
 #define MIN_DUTY_FOR_PWM_FREEWHEEL											 20
 #define CURRENT_DISPLAY_OFFSET											     80   //in cnts
 
-#define MODE_SLOW_CURR														 0.5
+#define MODE_SLOW_CURR														 0.6
 #define MODE_DRIVE_CURR														 0.8
 #define MODE_SPORT_CURR														 1.0
-#define MODE_SLOW_SPEED														 10
-#define MODE_DRIVE_SPEED													 25
+#define MODE_SLOW_SPEED														 20
+#define MODE_DRIVE_SPEED													 40
 #define MODE_SPORT_SPEED													 KMH_NO_LIMIT
 
 #define BATTERY_VOLTAGE_GAIN     											 ((VOLTAGE_DIVIDER_GAIN * ADC_GAIN) * 512.0)
